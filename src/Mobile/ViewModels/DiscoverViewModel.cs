@@ -84,8 +84,8 @@ public class DiscoverViewModel : BaseViewModel
     {
         var list = new ObservableRangeCollection<ShowGroup>
         {
-            new ShowGroup(AppResource.Whats_New, listPodcasts.Take(3).ToList()),
-            new ShowGroup(AppResource.Specially_For_You, listPodcasts.Take(3..).ToList())
+            new ShowGroup(AppResource.Whats_New, listPodcasts.Take(2).ToList()),
+            new ShowGroup(AppResource.Specially_For_You, listPodcasts.Take(5..).ToList())
         };
 
         PodcastsGroup.ReplaceRange(list);

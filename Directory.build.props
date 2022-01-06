@@ -1,5 +1,8 @@
 <Project>
   <PropertyGroup>
 	  <MauiV>6.0.101-preview.11.2082</MauiV>
+	  <MauiPlatforms>net6.0-android</MauiPlatforms>
+	  <!--<MauiV>6.0.101-preview.11.2349</MauiV>-->
+	  <!--<MauiPlatforms>net6.0-android;net6.0-tizen</MauiPlatforms>-->
   </PropertyGroup>
 </Project>
